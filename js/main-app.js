@@ -27,6 +27,7 @@ window.onload = function () {
     if(searchsys == undefined) {
         searchSysOBJ.innerHTML = "Google";
         setC('SearchSys', 'Google');
+        window.location.reload();
     }
     else {
         searchSysOBJ.innerHTML = searchsys;
