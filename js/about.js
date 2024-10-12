@@ -5,6 +5,9 @@ let text3 = document.getElementById('v3');
 window.onload = function () {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         text2.innerHTML = "";
+        document.getElementById('hider').style.display = "none";
+        document.getElementById('center').style.margin = "0 auto";
+        document.getElementById('center').style.position = "relative";
     }
     text1.style.translate = "-0% -50%";
     setTimeout(
