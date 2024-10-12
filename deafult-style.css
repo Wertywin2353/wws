@@ -1,0 +1,120 @@
+body {
+    --color-font-important: #a494cc;
+    --color-font-sub: #8760cd;
+    --color-bg-dark: #380e5a;
+    --color-bg-darker: #13062a;
+    background: url(images/main_bg.webp);
+    font-family: "Ubuntu";
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    user-select: none;
+    background-color: var(--color-bg-darker);
+}
+
+#qr-sharing {
+    transition: 0.3s;
+    padding: 5px 5px 1px 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 10px;
+}
+
+#qr-sharing:hover {
+    background-color: var(--color-bg-dark);
+}
+
+#Upper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+header {
+    transition: 0.8s;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+    background-color: var(--color-bg-dark);
+    translate: -0% -150%;
+}
+
+#setting-button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#main-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    text-align: center;
+}
+
+#search {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    background-color: var(--color-bg-dark);
+    color: var(--color-font-important);
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+#service {
+    transition: 300ms;
+}
+
+#service:hover {
+    text-decoration: underline;
+}
+
+#splash {
+    transition: 2s;
+    position: absolute;
+    background-color: var(--color-bg-dark);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+button {
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    background-color: var(--color-bg-dark);
+    color: var(--color-font-important);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 2;
+    border: 0;
+}
+
+button:hover {
+    background-color: var(--color-bg-darker);
+}
+
+#slider {
+    width: 70%;
+    background-color: var(--color-bg-dark);
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#qr-share {
+    transition: 600ms;
+    translate: -150%;
+}

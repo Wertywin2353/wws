@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="deafult-style.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знакомьтесь, WWS!</title>
+</head>
+<body>
+    <div id="splash"></div>
+    <div id="main-window">
+        <div id="name" style="background-color: var(--color-bg-dark); padding: 5px; z-index: 1; position: relative;">
+        <span style="font-size: 40px; color: var(--color-font-important);">World Web Searcher</span>
+        </div>
+        <br>
+        <span id="v1" style="font-size: 20px; color: var(--color-font-sub); position: absolute; left: 0; transition: 300ms; translate: -0% -250%;">Простой.</span>
+        <span id="v2" style="font-size: 20px; color: var(--color-font-sub); position: absolute; left: 50%; transition: 300ms; translate: -50% -250%;">Легкий.</span>
+        <span id="v3" style="font-size: 20px; color: var(--color-font-sub); position: absolute; right: 0; transition: 300ms; translate: -0% -250%;">Удобный.</span>
+        <br><br>
+        <button style="position: absolute; left: 0;" onclick="goahead()">Искать сейчас</button><button style="position: absolute; right: 0;" onclick="protip()">Фишки и функции</button>
+    </div>
+    <div id="qr-share" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 300px; text-align: center; background-color: rgba(0,0,0,0.3);">
+        <div style="background-color: var(--color-bg-dark); padding: 10px; position: absolute; top: 50%; left: 50%; translate: -50% -50%; border-radius: 15px;">
+            <img src="images/qr-code.png" width="100%"><br>
+            <span style="color: var(--color-font-important); font-size: 19px;">Поделитесь WWS через QR Код</span>
+        </div>
+    </div>
+    <div id="qr-sharing" onclick="share()">
+        <img src="images/qr.png">
+    </div>
+    <script src="js/about.js"></script>
+</body>
+</html>
