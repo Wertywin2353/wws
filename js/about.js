@@ -36,7 +36,7 @@ function goahead() {
     window.location.href = "index.html";
 }
 function protip() {
-    window.location.href = "https://docs.google.com/gview?url=http://wertywin2353.github.io/protips.docx&embedded=true";
+    window.location.href = "https://docs.google.com/gview?url=http://wertywin2353.github.io/wws/protips.docx&embedded=true";
 }
 document.getElementById('qr-share').onclick = function () {
     document.getElementById('qr-share').style.translate = "-150%";
